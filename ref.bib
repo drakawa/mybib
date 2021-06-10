@@ -4,35 +4,6 @@ title = "{Omitted for blind review.}",
 
 %%%% UNFORMALIZED!!! %%%%
 
-@article{duato_necessary_1995,
-	title = {A necessary and sufficient condition for deadlock-free adaptive routing in wormhole networks},
-	volume = {6},
-	issn = {1045-9219},
-	doi = {10.1109/71.473515},
-	abstract = {Deadlock avoidance is a key issue in wormhole networks. A first approach by W.J. Dally and C.L. Seitz (1987) consists of removing the cyclic dependencies between channels. Many deterministic and adaptive routing algorithms have been proposed based on that approach. Although the absence of cyclic dependencies is a necessary and sufficient condition for deadlock-free deterministic routing, it is only a sufficient condition for deadlock-free adaptive routing. A more powerful approach by J. Duato (1991) only requires the absence of cyclic dependencies on a connected channel subset. The remaining channels can be used in almost any way. In this paper, we show that the previously mentioned approach is also a sufficient condition. Moreover, we propose a necessary and sufficient condition for deadlock-free adaptive routing. This condition is the key for the design of fully adaptive routing algorithms with minimum restrictions, An example shows the application of the new theory.{\textless}{\textless}ETX{\textgreater}{\textgreater}},
-	number = {10},
-	journal = {IEEE Transactions on Parallel and Distributed Systems},
-	author = {Duato, J.},
-	month = oct,
-	year = {1995},
-	keywords = {Algorithm design and analysis, Routing, System recovery, deadlock avoidance, Adaptive systems, Bandwidth, wormhole networks, concurrency control, cyclic dependencies, Intelligent networks, Multiprocessor interconnection networks, hypercube networks, Delay, deadlock-free adaptive routing, deterministic algorithms, Application software, necessary and sufficient condition, Sufficient conditions, deadlock-free deterministic routing, fully adaptive routing algorithms},
-	pages = {1055--1067},
-	file = {IEEE Xplore Abstract Record:C\:\\Users\\ryuut\\Zotero\\storage\\SUC9HD9F\\473515.html:text/html;IEEE Xplore Full Text PDF:C\:\\Users\\ryuut\\Zotero\\storage\\UZ44UCUM\\Duato - 1995 - A necessary and sufficient condition for deadlock-.pdf:application/pdf}
-}
-
-@inproceedings{domke_deadlock-free_2011,
-	title = {Deadlock-{Free} {Oblivious} {Routing} for {Arbitrary} {Topologies}},
-	doi = {10.1109/IPDPS.2011.65},
-	abstract = {Efficient deadlock-free routing strategies are crucial to the performance of large-scale computing systems. There are many methods but it remains a challenge to achieve lowest latency and highest bandwidth for irregular or unstructured high-performance networks. \% We investigate a novel routing strategy based on the single-source-shortest-path routing algorithm and extend it to use virtual channels to guarantee deadlock-freedom. We show that this algorithm achieves minimal latency and high bandwidth with only a low number of virtual channels and can be implemented in practice. \% We demonstrate that the problem of finding the minimal number of virtual channels needed to route a general network deadlock-free is NP-complete and we propose different heuristics to solve the problem. We implement all proposed algorithms in the Open Subnet Manager of InfiniBand and compare the number of needed virtual channels and the bandwidths of multiple real and artificial network topologies which are established in practice. \% Our approach allows to use the existing virtual channels more effectively to guarantee deadlock-freedom and increase the effective bandwidth of up to a factor of two. Application benchmarks show an improvement of up to 95\%. Our routing scheme is not limited to InfiniBand but can be deployed on existing InfiniBand installations to increase network performance transparently without modifications to the user applications.},
-	booktitle = {2011 {IEEE} {International} {Parallel} {Distributed} {Processing} {Symposium}},
-	author = {Domke, J. and Hoefler, T. and Nagel, W. E.},
-	month = may,
-	year = {2011},
-	keywords = {Network topology, Routing, System recovery, Topology, virtual channels, telecommunication network routing, Bandwidth, computer networks, telecommunication network topology, Generators, computational complexity, graph theory, arbitrary topologies, artificial network topologies, deadlock-free oblivious routing, large-scale computing systems, NP-complete, Polynomials, single-source-shortest-path routing algorithm, unstructured high-performance networks},
-	pages = {616--627},
-	file = {IEEE Xplore Abstract Record:C\:\\Users\\ryuut\\Zotero\\storage\\FFC4ZS6N\\6012874.html:text/html;IEEE Xplore Full Text PDF:C\:\\Users\\ryuut\\Zotero\\storage\\5C6QIRRA\\Domke et al. - 2011 - Deadlock-Free Oblivious Routing for Arbitrary Topo.pdf:application/pdf}
-}
-
 @article{schwiebert_deadlock-free_2001,
 	title = {Deadlock-free oblivious wormhole routing with cyclic dependencies},
 	volume = {50},
@@ -150,58 +121,6 @@ title = "{Omitted for blind review.}",
 	note = {arXiv: 2006.02332},
 	keywords = {Computer Science - Networking and Internet Architecture},
 	file = {arXiv Fulltext PDF:C\:\\Users\\ryuut\\Zotero\\storage\\Y7EXZSTV\\Crespo et al. - 2021 - UPR Deadlock-Free Dynamic Network Reconfiguration.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\ryuut\\Zotero\\storage\\SYM9RY29\\2006.html:text/html}
-}
-
-@article{lysne_part_2005,
-	title = {Part {II}: {A} {Methodology} for {Developing} {Deadlock}-{Free} {Dynamic} {Network} {Reconfiguration} {Processes}},
-	volume = {16},
-	issn = {1045-9219},
-	shorttitle = {Part {II}},
-	url = {https://www.computer.org/csdl/journal/td/2005/05/l0428/13rRUxASuph},
-	doi = {10.1109/TPDS.2005.59},
-	abstract = {Abstract—Dynamic network reconfiguration is defined as the process of changing from one routing function to another while the network remains up and running. The main challenge is in avoiding deadlock anomalies while keeping restrictions on packet injection and forwarding minimal. Current approaches either require virtual channels in the network or they work only for a limited set of routing algorithms and/or fault patterns. In this paper, we present a methodology for devising deadlock free and dynamic transitions between old and new routing functions that is consistent with newly proposed theory [CHECK END OF SENTENCE]. The methodology is independent of topology, can be applied to any deadlock-free routing function, and puts no restrictions on the routing function changes that can be supported. Furthermore, it does not require any virtual channels to guarantee deadlock freedom. This research is motivated by current trends toward using increasingly larger Internet and transaction processing servers based on clusters of PCs that have very high availability and dependability requirements, as well as other local, system, and storage area network-based computing systems.},
-	language = {English},
-	number = {05},
-	urldate = {2021-04-12},
-	journal = {IEEE Transactions on Parallel and Distributed Systems},
-	author = {Lysne, Olav and Pinkston, Timothy Mark and Duato, Jos?},
-	month = may,
-	year = {2005},
-	note = {Publisher: IEEE Computer Society},
-	pages = {428--443},
-	file = {Full Text PDF:C\:\\Users\\ryuut\\Zotero\\storage\\HMJVMWDN\\Lysne et al. - 2005 - Part II A Methodology for Developing Deadlock-Fre.pdf:application/pdf;Snapshot:C\:\\Users\\ryuut\\Zotero\\storage\\BKQGL73M\\13rRUxASuph.html:text/html}
-}
-
-@article{duato_theory_2005,
-	title = {A theory for deadlock-free dynamic network reconfiguration. {Part} {I}},
-	volume = {16},
-	issn = {1558-2183},
-	doi = {10.1109/TPDS.2005.58},
-	abstract = {This paper develops theoretical support useful for determining deadlock properties of dynamic network reconfiguration techniques and also serves as a basis for the development of design methodologies useful for deriving deadlock-free reconfiguration techniques. It is applicable to interconnection networks typically used in multiprocessor servers, network-based computing clusters, and distributed storage systems, and also has potential application to system-on-chip networks. This theory builds on basic principles established by previous theories while pioneering new concepts fundamental to the case of dynamic network reconfiguration.},
-	number = {5},
-	journal = {IEEE Transactions on Parallel and Distributed Systems},
-	author = {Duato, J. and Lysne, O. and Pang, R. and Pinkston, T. M.},
-	month = may,
-	year = {2005},
-	note = {Conference Name: IEEE Transactions on Parallel and Distributed Systems},
-	keywords = {Routing, System recovery, Switches, Computer networks, Multiprocessor interconnection networks, Design methodology, Availability, Interconnection network, deadlock-freedom theory, Distributed computing, dynamic reconfiguration, Network servers, Reliability, system reliability and availability.},
-	pages = {412--427},
-	file = {IEEE Xplore Abstract Record:C\:\\Users\\ryuut\\Zotero\\storage\\U5MKYTXZ\\1411730.html:text/html;IEEE Xplore Full Text PDF:C\:\\Users\\ryuut\\Zotero\\storage\\9UGBJLTJ\\Duato et al. - 2005 - A theory for deadlock-free dynamic network reconfi.pdf:application/pdf}
-}
-
-@inproceedings{anjan_efficient_1995,
-	title = {An efficient, fully adaptive deadlock recovery scheme: {DISHA}},
-	shorttitle = {An efficient, fully adaptive deadlock recovery scheme},
-	doi = {10.1109/ISCA.1995.524561},
-	abstract = {This paper presents a simple, efficient and cost effective routing strategy that considers deadlock recovery as opposed to prevention. Performance is optimized in the absence of deadlocks by allowing maximum flexibility in routing. DISHA supports truefully adaptive routing where all virtual channels at each node are available to packets without regard for deadlocks. Deadlock cycles, upon forming, are efficiently broken by progressively routing one of the blocked packets through a deadlock-free lane. This lane is implemented using a central "floating" deadlock buffer resource in routers which is accessible to all neighboring routers along the path. Simulations show that the DISHA scheme results in superior performance and is extremely simple, ensuring quick recovery from deadlocks and enabling the design of fast routers.},
-	booktitle = {Proceedings 22nd {Annual} {International} {Symposium} on {Computer} {Architecture}},
-	author = {Anjan, K. V. and Pinkston, T. M.},
-	month = jun,
-	year = {1995},
-	note = {ISSN: 1063-6897},
-	keywords = {Routing, System recovery, Hardware, Multiprocessor interconnection networks, Communication switching, System performance, Costs, Permission, HTML, Spine},
-	pages = {201--210},
-	file = {IEEE Xplore Abstract Record:C\:\\Users\\ryuut\\Zotero\\storage\\G5PFJUYH\\524561.html:text/html;IEEE Xplore Full Text PDF:C\:\\Users\\ryuut\\Zotero\\storage\\NFL4R7WF\\Anjan and Pinkston - 1995 - An efficient, fully adaptive deadlock recovery sch.pdf:application/pdf}
 }
 
 @article{kim_compressionless_1994,
@@ -5276,7 +5195,7 @@ adsnote = {Provided by the Smithsonian/NASA Astrophysics Data System}
 	volume    = {22},
 	number    = {5},
 	year      = {2005},
-	pages     = {434-442},
+	pages     = "434--442",
 }
 
 @Article{DuatoEtAl04,
@@ -5289,7 +5208,8 @@ adsnote = {Provided by the Smithsonian/NASA Astrophysics Data System}
   volume    = {16},
   number    = {5},
   year      = {2005},
-  pages     = {412-427},
+  month = May,
+  pages     = "412--427",
 }
 
 
@@ -5302,7 +5222,8 @@ adsnote = {Provided by the Smithsonian/NASA Astrophysics Data System}
   volume    = {16},
   number    = {5},
   year      = {2005},
-  pages     = {428-443}
+  month = May,
+  pages     = "428--443",
 }
 
 
